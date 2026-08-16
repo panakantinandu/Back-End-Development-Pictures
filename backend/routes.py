@@ -97,4 +97,4 @@ def delete_picture(id):
             data.remove(picture)
             return "", 204
 
-    return {"message": "picture not found"}, 404
+    return {"message": "picture not found"}, 404 
